@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    color: #F2F3AE;
+}
+
+
+
+body {
+    background-color: #252627;
+    /* background-color: #041B15; */
+    text-align: center;
+}
+
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:431px) {
+    .container {
+        height: 37vh
+    }
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    height: 60vmin;
+    width: 60vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.602);
+    font-size: 10vmin;
+    background-color: #BB0A21;
+    color: #F2F3AE;
+    transition: .5s;
+}
+
+.box:hover {
+    background-color: #4B88A2;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #F2F3AE;
+    border-radius: 2vmin;
+    border: none;
+    transition: 0.8s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    background-color: #4CE0D2;
+    color: #041B15;
+}
+
+
+.msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vmin;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}

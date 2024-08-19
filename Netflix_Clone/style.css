@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-image: url(Assets/Images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200, 100vw);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: calc(100% - 62px);
+    flex-direction: column;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+}
+
+.seperator {
+    height: 7px;
+    background-color: rgb(75, 75, 75);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(244, 240, 240, 0.038);
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.632);
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+
+.flexbtn {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(254, 252, 255, 0.48);
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    align-items: center;
+}
+
+.secImage img {
+    width: 30vw;
+    position: relative;
+    top: 3px;
+    z-index: 10;
+
+}
+
+.secImage {
+    position: relative;
+    top: 5px;  
+    padding-bottom: 18px; 
+}
+
+.secImage video {
+    width: 25vw;
+    position: absolute;
+    top: 24px;
+    left: 36px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2) {
+    font-size: 24px;
+}
+section.second video{
+    width: 17vw;
+    /* border: 2px solid red; */
+    top: 32px;
+    left: 94px;
+}
