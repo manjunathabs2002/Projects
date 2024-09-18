@@ -1,0 +1,62 @@
+.border {
+  border: 2px solid red;
+}
+.flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-grey {
+  background-color: #121212;
+}
+.rounded {
+  border-radius: 0.5rem;
+}
+.p1 {
+  padding: 1.125rem;
+}
+.m1 {
+  margin: 0.375rem;
+}
+.invert {
+  filter: invert(1);
+}
+
+
+/* Custom scrollbar styles for webkit browsers (Chrome, Safari, Edge) */
+.container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #555; /* Color of the scrollbar thumb */
+  border-radius: 5px;      /* Rounded edges of the scrollbar thumb */
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: #777; /* Color when hovering over the scrollbar thumb */
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: #222; /* Background color of the scrollbar track */
+}
+
+/* For Firefox */
+.container {
+  scrollbar-width: thin;        /* Make scrollbar thinner */
+  scrollbar-color: #555 #222;   /* Scrollbar thumb color and track color */
+}
+
+/* For Internet Explorer 10+ */
+.container {
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* Auto-hiding scrollbar for IE */
+}
